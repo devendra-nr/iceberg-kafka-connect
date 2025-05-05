@@ -85,8 +85,8 @@ public class IcebergSinkConfig extends AbstractConfig {
       "iceberg.tables.schema-force-optional";
   private static final String TABLES_SCHEMA_CASE_INSENSITIVE_PROP =
       "iceberg.tables.schema-case-insensitive";
-  public static final String ERROR_TOLERANCE = "errors.tolerance";
-  public static final String ERROR_LOG_INCLUDE_MESSAGES = "errors.log.include.messages";
+  private static final String ERROR_TOLERANCE = "errors.tolerance";
+  private static final String ERROR_LOG_INCLUDE_MESSAGES = "errors.log.include.messages";
   private static final String CONTROL_TOPIC_PROP = "iceberg.control.topic";
   private static final String CONTROL_GROUP_ID_PROP = "iceberg.control.group-id";
   private static final String COMMIT_INTERVAL_MS_PROP = "iceberg.control.commit.interval-ms";
